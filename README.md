@@ -43,14 +43,12 @@ The repository follows a structured learning path inspired by Go by Example:
 
 ```
 go-learning-roadmap/
-├── topics/                     # All learning topics
-│   ├── 01-hello-world/         # Each topic in its own folder
-│   │   ├── README.md           # Explanations and notes
-│   │   ├── main.go             # Example code
-│   │   ├── challenges/         # Challenge solutions
-│   │   └── conversation.md     # Original AI conversation (optional)
-├── projects/                   # Mini-projects combining multiple concepts
-└── resources/                  # Additional learning resources
+├── 01-hello-world/         # Each topic in its own folder
+│   ├── README.md           # Explanations and notes
+│   ├── 01_hello_world.go   # Example code
+│   ├── challenges/         # Challenge solutions
+├── projects/               # Mini-projects combining multiple concepts
+└── resources/              # Additional learning resources
 ```
 
 ## Contributing
