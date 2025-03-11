@@ -46,7 +46,6 @@ go-learning-roadmap/
 ├── 01-hello-world/         # Each topic in its own folder
 │   ├── README.md           # Explanations and notes
 │   ├── 01_hello_world.go   # Example code
-│   ├── challenges/         # Challenge solutions
 ├── projects/               # Mini-projects combining multiple concepts
 └── resources/              # Additional learning resources
 ```
