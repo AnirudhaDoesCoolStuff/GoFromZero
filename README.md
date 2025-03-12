@@ -50,6 +50,10 @@ go-learning-roadmap/
 │   ├── README.md           # Explanations and notes
 │   ├── 01_hello_world.go   # Example code
 │   └── Challenge.go        # Challenge code
+├── 01-values/
+│   ├── README.md           # Explanations and notes
+│   ├── values.go   # Example code
+│   └── Challenge.go        # Challenge code
 ├── projects/               # Mini-projects combining multiple concepts
 └── resources/              # Additional learning resources
 ```
