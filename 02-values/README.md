@@ -47,7 +47,7 @@ Example (assuming `uint8` range is 0-255):
 
 ```go
 var x uint8 = 255
-x++  // ERROR: overflows uint8
+x++  // cyclic rotation happens. 255 -> 0 -> 1 -> 2 ....
 ```
 
 ##### **b) Floating-Point Precision Issues**
@@ -55,7 +55,7 @@ x++  // ERROR: overflows uint8
 Floating-point numbers are not always exact due to precision limitations:
 
 ```go
-fmt.Println(0.1 + 0.2) // Output: 0.30000000000000004 (Not exactly 0.3)
+fmt.Println(0.1 + 0.2) // Output: 0.3 (Currently it works as expected)
 ```
 
 ##### **c) Empty String and Zero Values**
