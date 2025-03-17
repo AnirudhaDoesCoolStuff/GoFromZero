@@ -38,9 +38,9 @@ func main() {
 	// 4️⃣ Login System
 
 	username := "admin"
-	password := 12345
+	password := "12345"
 
-	if username == "admin" && password == 12345 {
+	if username == "admin" && password == "12345"{
 		fmt.Println("Login Successful")
 	} else {
 		fmt.Println("Invalid Credentials")
