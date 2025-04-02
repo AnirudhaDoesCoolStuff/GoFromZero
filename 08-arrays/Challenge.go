@@ -17,11 +17,13 @@ func main() {
 
 	// 2️⃣ Find the Maximum Value
 	// Given an array of integers, find and print the maximum value.
-	var big int;
+	
 
 	allNumbers := [5]int{112 , 175, 123, 523, 32}
 
-	for i := 0; i < len(allNumbers); i++ {
+	big := allNumbers[0]
+
+	for i := 1; i < len(allNumbers); i++ {
 		if allNumbers[i] > big {
 			big = allNumbers[i]
 		}
